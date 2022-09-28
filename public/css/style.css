@@ -419,38 +419,115 @@ section {
   color: #2c4964;
 }
 
-#kriteria .kriteria h1 {
+#kriteria .judul-kriteria {
   background-color: #00695c;
   color: aliceblue;
   text-align: center;
 }
 
-#kriteria .gambar {
-  /* float: left; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.kriteria-satu {
+  max-width: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
-#kriteria .keterangan {
-  /* float: right; */
+.kriteria-satu .gambar {
+  text-align: center;
+  order: 1;
   padding-top: 20px;
 }
 
-@media (max-width: 900px) {
-  #kriteria .gambar {
+.kriteria-satu .keterangan {
+  order: 2;
+}
+
+.kriteria-satu h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.kriteria-dua {
+  padding-top: 30px;
+}
+
+.kriteria-dua h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.kriteria-dua .gambar {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.kriteria-tiga {
+  max-width: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.kriteria-tiga .gambar {
+  text-align: center;
+  order: 1;
+  padding-top: 20px;
+}
+
+.kriteria-tiga .keterangan {
+  order: 2;
+}
+
+.kriteria-tiga h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 780px) {
+  .kriteria-satu {
+    display: flex;
+  }
+
+  .kriteria-satu .gambar {
+    flex: 2;
+  }
+
+  .kriteria-satu .keterangan {
+    flex: 2;
+    padding-top: 20px;
+  }
+
+  .kriteria-dua {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .kriteria-dua .gambar {
+    flex: 2;
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  .kriteria-dua .keterangan {
+    flex: 2;
+    padding-top: 20px;
+  }
+
+  .kriteria-tiga {
+    display: flex;
+  }
+
+  .kriteria-tiga .gambar {
+    flex: 2;
+  }
+
+  .kriteria-tiga .keterangan {
+    flex: 2;
+    padding-top: 20px;
   }
 }
 
 #kriteria img {
   width: 300px;
   border-radius: 10px;
-}
-
-#kriteria h3 {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 #kriteria li {

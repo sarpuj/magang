@@ -10,7 +10,7 @@
 <section id="kategori">
     <div class="container kategori">
         <div class="row row-judul">
-            <h1>Kategori Magang</h1>
+            <h1>Lowongan Magang</h1>
         </div>
         <div class="row">
             <div class="col-md">
@@ -40,34 +40,54 @@
 
 <!-- Kriteria -->
 <section id="kriteria">
-    <div class="container-fluid kriteria border">
+    <div class="container-fluid container-kriteria">
+        <div class="judul-kriteria">
             <h1>Kriteria</h1>
-            <div class="row aplikasi">
+        </div>
+        <div class="kriteria-satu">
+            <div class="keterangan">
                 <h3>Aplikasi</h3>
-                <div class="col-md gambar border border-dark">
-                    <img src="<?= base_url('assets/img/1.jpg'); ?>" alt="Aplikasi">
-                </div>
-                <div class="col-md keterangan">
-                    <ul>
-                        <li>Mahasiswa Semester 5 (D3) / 7 (S1)</li>
-                        <li>Mahasiswa dari jurusan Sistem Informasi, teknik informatika, ....</li>
-                        <li>Tidak sedang melaksanakan magang di tempat lain</li>
-                        <li>Dapat menguasai CodeIgniter 4, HTML, CSS, ...</li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>Mahasiswa Semester 5 (D3) / 7 (S1)</li>
+                    <li>Mahasiswa dari jurusan Sistem Informasi, teknik informatika, ....</li>
+                    <li>Tidak sedang melaksanakan magang di tempat lain</li>
+                    <li>Dapat menguasai CodeIgniter 4, HTML, CSS, ...</li>
+                </ul>
             </div>
-            <div class="row aplikasi">
+            <div class="gambar">
+                <img src="<?= base_url('assets/img/1.jpg'); ?>" alt="Aplikasi">
+            </div>
+        </div>
+        <div class="kriteria-dua ">
+            <div class="keterangan">
                 <h3>Aplikasi</h3>
-                  
-                <div class="col-md keterangan">
-                    <ul>
-                        <li>Mahasiswa Semester 5 (D3) / 7 (S1)</li>
-                        <li>Mahasiswa dari jurusan Sistem Informasi, teknik informatika, ....</li>
-                        <li>Tidak sedang melaksanakan magang di tempat lain</li>
-                        <li>Dapat menguasai CodeIgniter 4, HTML, CSS, ...</li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>Mahasiswa Semester 5 (D3) / 7 (S1)</li>
+                    <li>Mahasiswa dari jurusan Sistem Informasi, teknik informatika, ....</li>
+                    <li>Tidak sedang melaksanakan magang di tempat lain</li>
+                    <li>Dapat menguasai CodeIgniter 4, HTML, CSS, ...</li>
+                </ul>
             </div>
+            <div class="gambar">
+                <img src="<?= base_url('assets/img/1.jpg'); ?>" alt="Aplikasi">
+            </div>
+
+        </div>
+        <div class="kriteria-tiga">
+            <div class="keterangan">
+                <h3>Aplikasi</h3>
+                <ul>
+                    <li>Mahasiswa Semester 5 (D3) / 7 (S1)</li>
+                    <li>Mahasiswa dari jurusan Sistem Informasi, teknik informatika, ....</li>
+                    <li>Tidak sedang melaksanakan magang di tempat lain</li>
+                    <li>Dapat menguasai CodeIgniter 4, HTML, CSS, ...</li>
+                </ul>
+            </div>
+            <div class="gambar">
+                <img src="<?= base_url('assets/img/1.jpg'); ?>" alt="Aplikasi">
+            </div>
+
+        </div>
     </div>
 </section>
 <!-- End Syarat -->
